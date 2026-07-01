@@ -1,20 +1,37 @@
-# Proyecto-Analisis-Datos--AO
-Proyecto Análisis de Datos Sprint 7
+# 🚗 Cuadro de Mandos: Análisis de Vehículos en Venta
 
-**Cuadro de Mandos de Vehículos en Venta**
+## Descripción
 
-Esta es una aplicación web interactiva desarrollada con **Streamlit** y **Plotly Express** que permite explorar un conjunto de datos de vehículos a la venta.
+Aplicación web interactiva desarrollada con Streamlit para explorar información de vehículos usados mediante visualizaciones dinámicas.
 
-**Funcionalidad**
+El proyecto permite analizar el comportamiento de variables como el kilometraje y el precio de los vehículos, facilitando la identificación de tendencias y patrones mediante gráficos interactivos.
 
-- Construir un histograma de los kilómetros recorridos (odometer) de los vehículos.
-- Construir un gráfico de dispersión comparando el 'odometer' con el 'price' para analizar cómo afecta el uso al precio.
-- Los gráficos son interactivos y permiten explorar tendencias y valores atípicos.
-- Opcionalmente, el usuario puede elegir qué gráficos mostrar mediante botones o casillas de verificación.
+## Vista previa
 
-**Tecnologías Utilizadas**
+![Dashboard](dashboard-vehiculos.png)
+
+## Funcionalidades
+
+- Visualización interactiva de datos.
+- Histograma del kilometraje de los vehículos.
+- Gráfico de dispersión entre precio y kilometraje.
+- Controles para mostrar u ocultar visualizaciones.
+- Exploración de tendencias mediante gráficos interactivos.
+
+## Tecnologías utilizadas
 
 - Python
-- Streamlit
 - Pandas
+- Streamlit
 - Plotly Express
+
+## Archivos del proyecto
+
+- `app.py`
+- `vehicles_us.csv`
+- `requirements.txt`
+- `notebooks/`
+
+## Objetivo
+
+Desarrollar una aplicación web sencilla que facilite el análisis exploratorio de datos mediante visualizaciones interactivas.
